@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <parameter name="usname" value="admin"/>
+    <parameter name="pawd" value="admin"/>
+    <classes>
+      <class name="vTiger_PracticeTests.Loginpage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="newticket"/>
+          <include name="createlead"/>
+          <include name="newaccount"/>
+          <include name="newfaq"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- vTiger_PracticeTests.Loginpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

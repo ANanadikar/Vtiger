@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="77614" started-at="2018-02-09T05:30:40Z" finished-at="2018-02-09T05:31:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="77614" started-at="2018-02-09T05:30:40Z" finished-at="2018-02-09T05:31:58Z">
+      <class name="vTiger_PracticeTests.Loginpage">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="SetUp" is-config="true" duration-ms="8883" started-at="2018-02-09T11:00:40Z" finished-at="2018-02-09T11:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="verifylogintitle()[pri:0, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="verifylogintitle" duration-ms="42" started-at="2018-02-09T11:00:49Z" description="To verify the title of the login page" finished-at="2018-02-09T11:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogintitle -->
+        <test-method status="PASS" signature="verifylogo()[pri:1, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="verifylogo" duration-ms="271" started-at="2018-02-09T11:00:49Z" description="To verify the logo of Vtiger Loginpage" finished-at="2018-02-09T11:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method status="PASS" signature="invalidcredentials()[pri:2, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="invalidcredentials" duration-ms="1521" started-at="2018-02-09T11:00:49Z" description="To verify login with invalid credentials." finished-at="2018-02-09T11:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidcredentials -->
+        <test-method status="PASS" signature="validcredentialslogin(java.lang.String, java.lang.String)[pri:3, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="validcredentialslogin" duration-ms="6959" started-at="2018-02-09T11:00:51Z" description="To verify login with valid credentials." data-provider="testdata" finished-at="2018-02-09T11:00:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredentialslogin -->
+        <test-method status="PASS" signature="validcredentialslogin(java.lang.String, java.lang.String)[pri:3, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="validcredentialslogin" duration-ms="3411" started-at="2018-02-09T11:00:58Z" description="To verify login with valid credentials." data-provider="testdata" finished-at="2018-02-09T11:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredentialslogin -->
+        <test-method status="PASS" signature="validcredentialslogin(java.lang.String, java.lang.String)[pri:3, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="validcredentialslogin" duration-ms="3441" started-at="2018-02-09T11:01:01Z" description="To verify login with valid credentials." data-provider="testdata" finished-at="2018-02-09T11:01:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validcredentialslogin -->
+        <test-method status="PASS" signature="createcontact(java.lang.String, java.lang.String)[pri:4, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="createcontact" duration-ms="9040" started-at="2018-02-09T11:01:05Z" description="To adding the New contact" finished-at="2018-02-09T11:01:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcontact -->
+        <test-method status="PASS" signature="createlead()[pri:5, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="createlead" duration-ms="7675" started-at="2018-02-09T11:01:14Z" description="To adding the New lead" finished-at="2018-02-09T11:01:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createlead -->
+        <test-method status="PASS" signature="newaccount()[pri:6, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="newaccount" duration-ms="7124" started-at="2018-02-09T11:01:21Z" description="To adding the New Potential" finished-at="2018-02-09T11:01:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newaccount -->
+        <test-method status="PASS" signature="newticket()[pri:7, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="newticket" duration-ms="19229" started-at="2018-02-09T11:01:29Z" description="To adding the New Ticket" finished-at="2018-02-09T11:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newticket -->
+        <test-method status="PASS" signature="newfaq()[pri:8, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="newfaq" duration-ms="9421" started-at="2018-02-09T11:01:48Z" description="To adding the New FAQ" finished-at="2018-02-09T11:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newfaq -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:vTiger_PracticeTests.Loginpage@57e1b0c]" name="teardown" is-config="true" duration-ms="492" started-at="2018-02-09T11:01:57Z" finished-at="2018-02-09T11:01:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- vTiger_PracticeTests.Loginpage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

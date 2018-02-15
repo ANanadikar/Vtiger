@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Regression]">
+  <test name="Vtiger(failed)">
+    <parameter name="usname" value="admin"/>
+    <parameter name="pawd" value="admin"/>
+    <classes>
+      <class name="vTiger_PracticeTests.Homepage">
+        <methods>
+          <include name="SetUp"/>
+          <include name="createcontact" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- vTiger_PracticeTests.Homepage -->
+    </classes>
+  </test> <!-- Vtiger(failed) -->
+</suite> <!-- Failed suite [Regression] -->
